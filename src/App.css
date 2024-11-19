@@ -1,0 +1,156 @@
+.top{
+    width: 100vW;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    /* background-color: black; */
+    color: #0ef;
+    border: 2px solid #0ef;
+    z-index: 3;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+.logo{
+    width: 80px;
+    border-radius: 5rem;
+    margin: 1em;
+    border: 2px solid #0ef;
+}
+.item{
+    margin: 1em;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+.btn{
+    background-color: white;
+    color: black;
+    font-size: 1.8em;
+    border: 1px solid #0ef;
+    border-radius:15px;
+    cursor: pointer;
+    padding: 0.15em;
+    margin: 1em;
+}
+.item:hover{
+    cursor: pointer;
+    border-bottom: 2px solid ;
+    padding-bottom: 3px;
+}
+/* ---------------------Home section -------------------- */
+#home{
+    width: 100vw;
+    height: calc(100vh-4rem);
+    position: absolute;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+.title{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.title h1{
+    color: gold;
+}
+/* ---------------------------About section -------------- */
+#about{
+    width: 100vw;
+    max-width: 80rem;
+    margin: auto;
+    height: calc(100vh-4rem);
+}
+#about h1 ,.headink{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1em;
+}
+.about-container{
+    display: flex;
+    position: relative;
+    border: 2px solid;
+}
+/* ===================project section======================== */
+#projects{
+    width: 100vw;
+    background-color: #e74c3c ;
+}
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80rem;
+    justify-content: space-around;
+    margin: auto;
+    /* padding: 1rem; */
+}
+.project{
+    border: 2px solid #0ef;
+    padding: 2rem;
+    font-size: 1.8em;
+    margin: 1em;
+    h1{
+        color: #0ef;
+    }
+}
+.project:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 5px  #0ef;
+}
+#contact{
+    width: 100vh;
+    max-width: 80rem;
+    justify-content: center;
+    margin: auto;
+    height: 55vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+}
+.name,.email ,.text{
+    padding: 0.5em;
+    margin: 1em;
+    border: 2px solid #0ef;
+    color: white;   
+    font-size: medium;
+}
+.submit{
+    min-width: 20em;
+    justify-content: center;
+    padding: 1em;
+    margin:  0.5em auto;
+    border: 2px solid #0ef;
+    color: white;
+    cursor: pointer;
+    border-radius: 2em;
+}
+.submit:hover{
+    box-shadow: 2px 2px 5px #0ef;
+}
+footer{
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    margin:  1em auto;
+}
+.active{
+    border-bottom: 2px solid #0ef;
+}
+@media screen and (max-width:786px) {
+    
+}

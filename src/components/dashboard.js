@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { Link } from 'react-scroll'
-import './dashboard.css'
 import Logo from '../images/logo2.png'
+import '../App.css'
 
 class Dashboard extends Component {
   render() {
     return (
-      <nav className='box1'>
+      <nav className='top'>
         <img src={Logo} alt='logoimage' className='logo' />
         <div className='navbar'>
-          <Link className='item'>Home</Link>
-          <Link className='item'>About</Link>
-          <Link className='item'>Projects</Link>
-          <Link className='item'>Contact</Link>
+          <Link className='item' activeClass='active' to='home' smooth={true} spy={true} offset={-100}>Home</Link>
+          <Link className='item' activeClass='active' to='about' smooth={true} spy={true} offset={-100}>About</Link>
+          <Link className='item' activeClass='active' to='projects' smooth={true} spy={true} offset={-100}>Projects</Link>
+          {/* <Link className='item' activeClass='active' to='home' smooth={true} spy={true} offset={-100}>Contact</Link> */}
         </div>
-        <button><i class="fa fa-lightbulb-o" aria-hidden="true"></i></button>
+        {/* <button className='btn'>Contact Me</button> */}
       </nav>
     )
   }
