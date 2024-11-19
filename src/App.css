@@ -102,12 +102,13 @@
     font-size: 1.8em;
     margin: 1em;
     h1{
-        color: #0ef;
+        color:black;
     }
 }
 .project:hover{
     cursor: pointer;
-    box-shadow: 2px 5px 5px  #0ef;
+    box-shadow: 2px 2px 5px  #0ef;
+    transition: delay 3s;
 }
 #contact{
     width: 100vh;
@@ -166,8 +167,13 @@ footer{
     .title{
         font-size: 1em;
         margin: auto;
-        padding-top: 100px;
-        
+        padding-top: 100px;  
+    }
+    .project-container{
+        max-width: 60em;
+    }
+    .project{
+        font-size: 1em;
     }
 
     
