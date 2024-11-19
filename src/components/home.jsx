@@ -9,7 +9,7 @@ class Home extends Component {
         <div className='title'>
             <p>Welcome to my portfolio , i am </p>
             <h1>Shaik <br/>Mohammad Ravuf</h1>
-            <h2>Web developer</h2>
+            <p>Web developer</p>
         </div>
         <img src={Img} alt='' className='bg'></img>
       </section>

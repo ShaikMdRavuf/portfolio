@@ -14,11 +14,11 @@ class App extends Component {
     return (
       <div>
         <Dashboard/>
-        <Home/>
+        <Home/> 
         <About/>
-        <Projects/>
+        {/* <Projects/> */}
         {/* <Contact/> */}
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     )
   }
