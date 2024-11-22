@@ -12,7 +12,7 @@ class Dashboard extends Component {
           <Link className='item' activeClass='active' to='home' smooth={true} spy={true} offset={-100}>Home</Link>
           <Link className='item' activeClass='active' to='about' smooth={true} spy={true} offset={-100}>About</Link>
           <Link className='item' activeClass='active' to='projects' smooth={true} spy={true} offset={-100}>Projects</Link>
-          {/* <Link className='item' activeClass='active' to='home' smooth={true} spy={true} offset={-100}>Contact</Link> */}
+          <Link className='item' activeClass='active' to='contact' smooth={true} spy={true} offset={-100}>Contact</Link>
         </div>
         {/* <button className='btn'>Contact Me</button> */}
       </nav>

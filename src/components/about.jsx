@@ -8,7 +8,7 @@ import Car from'../images/car.jpg'
       <section id='about'>
         <h1>About Myself</h1>
         <div className='about-container'>
-          <div><img src={Car} alt="car" className=''/></div>
+          <div class="profile"></div>
           <div className='about-content'>
             <p>i am passionate developer with a keen interest in creating innovative web applications
               I have strong foundation in Html .css and javascript

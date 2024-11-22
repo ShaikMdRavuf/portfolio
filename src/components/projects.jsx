@@ -8,11 +8,11 @@ class Projects extends Component {
         <h1 className='headink'>projects</h1>
         <div className='project-container'>
             <div className='project'>
-                <h1>Netflix clone</h1>
+                <h1>Netflix Clone</h1>
                 <p>developed netflix clone website using Html and CSS</p>
             </div>
             <div className='project'>
-                <h1>Autonomous tarctor</h1>
+                <h1>Autonomous Tarctor</h1>
                 <p>design and developed a Autonomous tractor using Robotics</p>
             </div>
              <div className='project'>

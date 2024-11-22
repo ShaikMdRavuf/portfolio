@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../App.css'
-import Img from '../images/background.png'
 
 class Home extends Component {
   render() {
@@ -11,7 +10,7 @@ class Home extends Component {
             <h1>Shaik <br/>Mohammad Ravuf</h1>
             <p>Web developer</p>
         </div>
-        <img src={Img} alt='' className='bg'></img>
+        {/* <img src={Img} alt='' className='bg'></img> */}
       </section>
     )
   }

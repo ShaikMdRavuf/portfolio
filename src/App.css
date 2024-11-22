@@ -1,6 +1,6 @@
 .top{
     width: 100vW;
-    max-width: 85em;
+    max-width: 80em;
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -40,38 +40,50 @@
 }
 /* ---------------------Home section -------------------- */
 #home{
+    background-image: url('./images/background.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
     width: 100vw;
-    margin: 0.5em auto; 
+    max-width: 80em;
+    max-height: 90vh;
+    margin: 0.5em auto;
+    
+    /* width: 100vw;
+    margin: auto; 
     height: calc(100vh-6rem);
     position: absolute;
-    max-width: 85em;
+    max-width: 80em;
     overflow: hidden;
-    position: relative;
+    position: relative; */
 }
-.bg{
+/* .bg{
     position: absolute;
     top: -4rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
     height: 100vh;
-}
+} */
 .title{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
+    max-width: 80em;
     padding: 2rem;
     font-size: 2rem;
     font-weight: 700;
+
 }
 .title h1{
-    color: gold;
+    color: rgb(255, 253, 108);
 }
 /* ---------------------------About section -------------- */
 #about{
-    width: 100vw;
-    max-width: 80rem;
-    margin: auto;
-    height: calc(100vh-4rem);
+    position: relative;
+    /* width: 100vw;
+    max-width: 85rem;
+    margin: em auto;
+    height: calc(100vh-6rem); */
 }
 #about h1 ,.headink{
     text-align: center;
@@ -80,13 +92,26 @@
 }
 .about-container{
     display: flex;
-    position: relative;
+    /* position: relative; */
     border: 2px solid;
+}
+.profile{
+    background: url('./images/car1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 50em;
+    height: 50em;
+
+
 }
 /* ===================project section======================== */
 #projects{
     width: 100vw;
     background-color: #e74c3c ;
+    position: relative;
+    width: 100vw;
+    max-width: 80em;
+    margin: 0.5em auto;
 }
 .project-container{
     display: flex;
@@ -102,7 +127,7 @@
     font-size: 1.8em;
     margin: 1em;
     h1{
-        color:black;
+        color:#0ef ;
     }
 }
 .project:hover{
@@ -111,20 +136,22 @@
     transition: delay 3s;
 }
 #contact{
-    width: 100vh;
-    max-width: 80rem;
+    width: 100vw;
+    max-width: 80em;
     justify-content: center;
-    margin: auto;
+    margin: 0.5em auto;
     height: 55vh;
+    /* border: 2px solid; */
 }
 .form{
     display: flex;
     flex-direction: column;
     max-width: 60rem;
+    margin: auto;
 }
 .name,.email ,.text{
     padding: 0.5em;
-    margin: 1em;
+    margin: 1em ;
     border: 2px solid #0ef;
     color: white;   
     font-size: medium;
@@ -139,6 +166,11 @@
     cursor: pointer;
     border-radius: 2em;
 }
+.submit a{
+    color: #0ef;
+    text-decoration: none;
+    
+}
 .submit:hover{
     box-shadow: 2px 2px 5px #0ef;
 }
@@ -146,12 +178,18 @@ footer{
     width: 100vw;
     text-align: center;
     justify-content: center;
-    margin:  1em auto;
+    /* margin:  1em auto; */
+    /* line-height: 22px; */
+    background-color: black;
+    font-size: 1.2em;
+}
+.footer{
+    padding: 1em;
 }
 .active{
     border-bottom: 2px solid #0ef;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
     .logo{
         margin: 0.2em;
         width: 50px;
@@ -169,11 +207,19 @@ footer{
         margin: auto;
         padding-top: 100px;  
     }
-    .project-container{
+    .project h1{
+        font-size: 1.2em;
+    }
+    .project-container,
+    .contact{
         max-width: 60em;
     }
     .project{
         font-size: 1em;
+    }
+    .headink{
+        padding: 1em;
+        font-size: 1.4em;
     }
 
     

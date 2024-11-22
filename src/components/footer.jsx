@@ -6,9 +6,12 @@ class Footer extends Component {
     return (
       <div>
         <footer>
+          <hr />
+            <div className='footer'>
             <p>&copy; 2025 All rights Recived  </p>
             <p>By shaik Mohammad Ravuf</p>
             <p>web.info.rouf@gmail.com </p>
+            </div>
         </footer>
       </div>
     )
