@@ -24,7 +24,6 @@ class Contact extends Component {
           cols='10' required />
 
           <button type='submit ' className='submit'> <a href="emailto:22jr1a05h9@gmail.com?subject=Hello&body=How%20are%20you?">Submit</a></button>
-
         </form>
         </div>
       </section>

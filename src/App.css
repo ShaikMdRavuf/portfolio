@@ -48,66 +48,96 @@
     max-width: 80em;
     max-height: 90vh;
     margin: 0.5em auto;
-    
-    /* width: 100vw;
-    margin: auto; 
-    height: calc(100vh-6rem);
-    position: absolute;
-    max-width: 80em;
-    overflow: hidden;
-    position: relative; */
 }
-/* .bg{
-    position: absolute;
-    top: -4rem;
-    right: 0;
-    z-index: -1;
-    object-fit: cover;
-    height: 100vh;
-} */
 .title{
     height: 90vh;
     width: 100vw;
     max-width: 80em;
-    padding: 2rem;
+    /* padding: 2rem; */
     font-size: 2rem;
     font-weight: 700;
+    padding-top: 18%;
+    padding-left: 8%;
 
-}
+} 
 .title h1{
     color: rgb(255, 253, 108);
 }
 /* ---------------------------About section -------------- */
-#about{
+ #about{
     position: relative;
-    /* width: 100vw;
-    max-width: 85rem;
-    margin: em auto;
-    height: calc(100vh-6rem); */
+    width: 100vw;
+    max-width: 80em;
+   margin: 0.5em auto;
+   border: 2px solid ;
+   background-color: white;
+   color: black;
 }
-#about h1 ,.headink{
+.headink{
     text-align: center;
     font-size: 2rem;
     padding: 1em;
 }
-.about-container{
-    display: flex;
-    /* position: relative; */
-    border: 2px solid;
+#info{
+ display: flex;
+ flex-direction: column;
+ p{
+    justify-content: center;
+    margin: auto;
+    font-size: 1.5em;
+ }
 }
+#bio{
+    margin: 2em;
+    padding: 2em;
+    border: 2px solid #0ef;
+    border-radius: 1em;
+    h1{ 
+        font-size: 2em;
+        padding: 1em 0;
+    }
+    h2{
+        color: #0ef;
+        padding: 0.5em 0;
+    }
+    p{
+        font-size: 1.4em;
+    }
+}
+#skil{
+    list-style-type: none;
+    display: flex;
+    li{
+        margin: 1em;
+        padding: 0.5em;
+        border-radius:1em;
+        background-color: rgb(151, 220, 224);
+        font-size: 1.2em;
+        color: blue;
+    }
+}
+
+
 .profile{
-    background: url('./images/car1.jpg');
+    background: url('./images/profile.jpg');
     background-position: center;
+    justify-content: center;
     background-size: cover;
-    width: 50em;
-    height: 50em;
-
-
+    width: 300px;
+    height: 300px;
+    border:1px solid gold;
+    border-radius: 200px;
+    margin: 2em  auto;
+}
+.profile:hover{
+    box-shadow: 2px 2px 5px #0ef;
+    /* transition: 1s ease; */
+    border:2px solid #0ef ;
 }
 /* ===================project section======================== */
 #projects{
     width: 100vw;
-    background-color: #e74c3c ;
+    background-color: #4ec4ef ;
     position: relative;
     width: 100vw;
     max-width: 80em;
@@ -122,17 +152,17 @@
     /* padding: 1rem; */
 }
 .project{
-    border: 2px solid #0ef;
+    border: 2px solid rgb(255, 255, 255);
     padding: 2rem;
     font-size: 1.8em;
     margin: 1em;
     h1{
-        color:#0ef ;
+        color:rgb(222, 255, 5) ;
     }
 }
 .project:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 5px  #0ef;
+    box-shadow: 2px 2px 5px  rgb(236, 240, 102);
     transition: delay 3s;
 }
 #contact{
@@ -221,7 +251,27 @@ footer{
         padding: 1em;
         font-size: 1.4em;
     }
-
-    
-    
+    #info{
+        p{
+            font-size: 1em;
+            padding: 1em;
+        }
+    }
+    #bio{
+        margin: 1em;
+        padding: 1em;
+        h1,h2,p{
+            font-size: 1em;
+        }
+        h1{
+            color: rgb(4, 53, 248);
+        }
+    }
+    #skil{
+       flex-wrap: wrap;
+       li{
+        font-size: 1em;
+        margin: 0.5em;
+       }
+    }
 }
