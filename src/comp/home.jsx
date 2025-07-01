@@ -18,7 +18,7 @@ const home = () => {
             <div className="social-icons">
               <a href="https://github.com/shaikmdravuf"  target="_blank"  rel="noopener noreferrer" >  <FaGithub />  </a>
 
-              <a href="https://linkedin.com/in/Shaik_Mohammad_Ravuf"  target="_blank" rel="noopener noreferrer" >  <FaLinkedin />{" "}  </a>
+              <a href="https://www.linkedin.com/in/shaik-mohammad-ravuf-25b2b3332/"  target="_blank" rel="noopener noreferrer" >  <FaLinkedin />{" "}  </a>
 
               <a href="mailto:shaikmohammadravuf@email.com"> <FaEnvelope /> </a>
 

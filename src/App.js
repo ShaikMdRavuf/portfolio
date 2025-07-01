@@ -8,7 +8,7 @@ import Autonomous from './comp/autonomous';
 import Restaurant from './comp/restaurant';
 import Chat from './comp/chat';
 import Certificates from './comp/all_certificates'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
